@@ -1,0 +1,32 @@
+PACKAGE.JSON
+  ~ Where all JS app dependencies are held, similar to a Gemfile file a ruby app
+  ~ 'package-lock.json', locks in versions of the dependencies for the application
+
+  IN FILE
+  ~ Default packages are installed by default from the create-react-app
+    - 'npm init' will also create a package.json file 
+    - default dependencies are react & react dom & react scripts
+
+  ~ Scripts are the commands  we type into the terminal to involk some code in the app
+    -I.E. we use is 'start' script often
+    ⇒ npm start ~> starts your app
+
+PUBLIC (folder)
+  ~ IMP file is 'index.html'
+  ~ File is the 'single page' the entire app renders too
+
+SRC
+  ~ Contains the logic for your React app
+  ~ Home to main component 'App.js' & main JS file 'index.js' live
+  ~ Where add folders like component, images, reducers, actions (eventually) etc etc
+  ~ Files to NEVER delete 'serviceWorker.js' & 'index.js', vital files for app to function 
+
+  INDEX.JS
+    ~ Importing dependencies, no additional setup needed
+    ~ Provided with a global index.css file
+      - equalivent to a global styling sheet
+      - can remove and or make changes to this file
+    ~ 'import App', very IMP b/c it's the main component
+      - everything starts here
+    ~ Import service worker, handles porting and backend stuff create-react-app needs
+    ~ Line 7 is how info rendered in App component shows up in the DOM
