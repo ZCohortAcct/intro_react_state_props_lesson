@@ -24,7 +24,7 @@ SRC
   INDEX.JS
     ~ First lines import dependencies, no additional setup needed
     ~ Provided with a global index.css file
-      - equalivant to a global styling sheet
+      - equivalent to a global styling sheet
       - can remove and or make changes to this file
     ~ 'import App', very important b/c it's the main component
       - everything starts here
